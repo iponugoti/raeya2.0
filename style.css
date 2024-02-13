@@ -99,6 +99,29 @@
   object-fit: cover;
 }
 
+/* Film Page */
+.film-box {
+  margin-inline: 20%;
+  position: relative;
+  padding-bottom: 40%; /* 16:9 */
+  height: 0;
+}
+.film {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.film-text {
+  margin-inline: 20%;
+  position: relative;
+  padding-bottom: 7%;
+  height: 0;
+  text-align: center;
+}
+
 .film-link {
   text-align: center;
   font-size: larger;
